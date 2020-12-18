@@ -1,2 +1,3 @@
 #!/bin/bash
-echo 'HELLO_WORLD_COMMIT_MESSAGE='${{ secrets.HELLO_WORLD_COMMIT_MESSAGE }} >> .env //
+echo "${env.HELLO_WORLD_COMMIT_MESSAGE}"
+#echo 'HELLO_WORLD_COMMIT_MESSAGE='${{ env.HELLO_WORLD_COMMIT_MESSAGE }} >> .env //
