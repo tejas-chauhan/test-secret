@@ -26,4 +26,4 @@ jobs:
       - name: Run a one-line script
         run: sh ./test.sh
         env:
-          HELLO_WORLD_COMMIT_MESSAGE: ${{ secrets.HELLO_WORLD_COMMIT_MESSAGE }}
+          SECRET_ID: ${{ secrets.SECRET_ID }}
