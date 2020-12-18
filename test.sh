@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "${SECRET_ID}"
+echo "Priting Secret"
+echo "${{ env.SECRET_ID }}"
 #echo 'HELLO_WORLD_COMMIT_MESSAGE='${{ env.HELLO_WORLD_COMMIT_MESSAGE }} >> .env //
